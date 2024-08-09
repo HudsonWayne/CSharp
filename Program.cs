@@ -7,9 +7,9 @@ namespace MyCSharpApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name? ");
-            string name = Console.ReadLine(); 
-            Console.WriteLine($"Hello {name}");
-        }
+            bool canIVote = true;
+            Console.WriteLine("Biggest Integer:{0}", int.MaxValue);
+            Console.WriteLine("Smallest Integer:{0}", int.MinValue);
     }
+}
 }
