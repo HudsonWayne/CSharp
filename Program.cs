@@ -7,10 +7,9 @@ namespace MyCSharpApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.Clear();
+            Console.WriteLine("What is your name? ");
+            string name = Console.ReadLine(); 
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
